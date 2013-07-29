@@ -1,0 +1,216 @@
+#ifndef LEXER_H
+#define LEXER_H
+
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <cstdio>
+#include "bad_jaba.h"
+
+using std::ostream;
+using std::string;
+using std::cout;
+
+const int BUFSIZE = 128;
+
+enum token_type{
+    DOT = 0,
+    COMMA,
+    SEMICOLON,
+    COLON,
+    OPEN_PAR,
+    CLOSE_PAR,
+    OPEN_BRACE,
+    CLOSE_BRACE,
+    OPEN_BRACKET,
+    CLOSE_BRACKET,
+    PLUS,
+    MINUS,
+    TIMES,
+    SLASH,
+    PERCENT,
+    GREATER,
+    LESS,
+    ASSIGN,
+    EQUAL,
+    N_EQUAL,
+    G_EQUAL,
+    L_EQUAL,
+    AND,
+    OR,
+    INC,
+    DEC,
+    IDENTITY,
+    N_IDENTITY,
+
+    VAR,
+    TRUE,
+    FALSE,
+    ARRAY,
+    OBJECT,
+    RESPONCE,
+    ENVIRONMENT,
+    NIL,
+    UNDEFINED,
+    TYPEOF,
+    FUNCTION,
+    IF,
+    WHILE,
+    FOR,
+    ELSE,
+    DO,
+    IN,
+    BREAK,
+    CONTINUE,
+    RETURN,
+
+    ZERO,
+    ENDOF,
+    IDENTIFIER,
+    BOOL,
+    INT,
+    STRING,
+    REAL
+};
+
+class Token{
+    token_type type;
+    string v_string;
+    int v_int;
+    double v_double;
+    bool v_bool;
+public:
+    Token(token_type new_type, int new_value): type(new_type), v_int(new_value){}
+    Token(token_type new_type, double new_value): v_double(new_value){}
+    Token(token_type new_type, bool new_value): v_bool(new_value){}
+    Token(token_type new_type, string new_value): v_string(new_value){}
+    ~Token(){}
+    token_type get_type(){return type;}
+    int get_int_value(){return v_int;}
+    double get_real_value(){return v_double;}
+    bool get_bool_value(){return v_bool;}
+    string get_string_value(){return v_string;}
+    friend ostream& operator<< (ostream &out, Token what);
+};
+
+class Identifier{ /// not needed here
+    string name;
+    string value;
+    bool declared;
+    token_type type;
+public:
+    Identifier(): value("undefined"), declared(false) {}
+    Identifier(const Identifier& source);
+    ~Identifier(){}
+    string get_name(){return name;}
+    string get_value(){return value;}
+    token_type get_type(){return type;}
+    bool is_declared(){return declared;}
+    void set_name(const string new_name);
+    void set_value(const string new_name);
+    void set_type(token_type new_type);
+};
+
+//class IdentifierArray{ /// also not needed?
+//    /// a number of a string in this table is received from get_token() in some cases
+//    /// size is static
+//    string *content;
+//    int elements;
+//    int size;
+//public:
+//    IdentifierArray(int init_size = 128): elements(0) {content = new string[size = init_size];}
+//    ~IdentifierArray(){delete[] content;}
+//    int add_id(string name);
+//    string &operator[](int i){return content[i];}
+//};
+
+enum state{ /// DFA states
+    _INIT,
+    _LEXEME,
+    _INT,
+    _STRING1,
+    _STRING2,
+    _DIV,
+    _NOT_USED6,
+    _PLUS,
+    _MINUS,
+    _TRIPLE,
+    _REAL3,
+    _DOUBLE,
+    _SINGLE,
+    _TRIPLE1,
+    _PREEXIT,
+    _COMMENT,
+    _REAL1,
+    _REAL0,
+    _REAL2,
+    _NOT_USED19,
+    _NOT_USED20,
+    _NOT_USED21,
+    _NOT_USED22,
+    _NOT_USED23,
+    _NOT_USED24,
+    _NOT_USED25,
+    _NOT_USED26,
+    _NOT_USED27,
+    _NOT_USED28,
+    _NOT_USED29,
+    _OUT_LEX,
+    _OUT_INT,
+    _OUT_REAL0,
+    _OUT_REAL2,
+    _OUT_STRING,
+    _UNTERM_STR_ERR,
+    _OUT_DELIMITER,
+    _UNKNOWN_CHAR_ERR
+};
+
+enum symbol { /// classes of symbols DFA works with
+    __SPACE,
+    __NEWLN,
+    __EOF,
+    __CHAR, /// without 'e' and 'E', but with '_'
+    __DIGIT,
+    __APOS1,
+    __APOS2,
+    __SLASH,
+    __EQU,
+    __DOUBLE,
+    __PLUS,
+    __MINUS,
+    __DOT,
+    __Ee,
+    __NOT,
+    __OTHER,
+    __UNRECOGNIZED
+};
+
+class Lexer{
+    static int DFA[][19];
+    static string reserved_words[];
+    static string signs[];
+    static token_type res_w_names[];
+    static token_type sig_names[];
+//    static IdentifierArray identifiers;
+
+    state cur_state;
+    FILE *source;
+    char c;
+
+    string buffer; /// stores whatever lexer read during current pass
+//    int buffered_elements;
+    void clear_buffer(){buffer.clear();}
+    void push(){buffer += c;}
+
+    int search(const string needle, const string *haystack); /// searches in static tables
+
+    char next(){return c = fgetc(source);}
+    symbol type(char smb);
+public:
+    Token get_token();
+    Lexer(const char *program);
+    ~Lexer(){}
+};
+
+
+#endif // LEXER_H

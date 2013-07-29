@@ -1,0 +1,411 @@
+# depslib dependency file v1.0
+1367309661 source:/home/student/s02110092/cpp/jaba_eater/bad_jaba.cpp
+	"bad_jaba.h"
+	"bad_jaba.h"
+
+1367309742 h"
+
+1367309680 /home/student/s02110092/cpp/jaba_eater/bad_jaba.h
+	<exception>
+	<cstring>
+	<iostream>
+	<exception>
+	<string>
+	<iostream>
+	"filesource.h"
+
+1367309730 e.h"
+
+1368354271 
+
+1367311524 source:/home/student/s02110092/cpp/jaba_eater/main.cpp
+	<iostream>
+	"lexer.h"
+	<iostream>
+	"lexer.h"
+	"parser.h"
+
+1367316612 source:/home/student/s02110092/cpp/jaba_eater/lexer.cpp
+	"lexer.h"
+	"lexer.h"
+
+1367315631 /home/student/s02110092/cpp/jaba_eater/lexer.h
+	<iostream>
+	<string>
+	"bad_jaba.h"
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	"bad_jaba.h"
+	"filesource.h"
+
+1366806478 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater\bad_jaba.cpp
+	"bad_jaba.h"
+
+1366806478 c:\users\innot\dropbox\code\codeblocks\jaba_eater\bad_jaba.h
+	<exception>
+	<cstring>
+	<iostream>
+
+1366827391 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater\lexer.cpp
+	"lexer.h"
+
+1366827024 c:\users\innot\dropbox\code\codeblocks\jaba_eater\lexer.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	"bad_jaba.h"
+
+1366811108 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater\main.cpp
+	<iostream>
+	"lexer.h"
+
+1366630089 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater/bad_jaba.cpp
+	"bad_jaba.h"
+	"bad_jaba.h"
+
+1366630089 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater/bad_jaba.h
+	<exception>
+	<cstring>
+	<iostream>
+	<exception>
+	<cstring>
+	<iostream>
+
+1366833849 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater/lexer.cpp
+	"lexer.h"
+
+1366832800 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater/lexer.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	"bad_jaba.h"
+
+1366811108 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater/main.cpp
+	<iostream>
+	"lexer.h"
+
+1367309729 source:/home/student/s02110092/cpp/jaba_eater/filesource.cpp
+	"filesource.h"
+
+1367309742 /home/student/s02110092/cpp/jaba_eater/filesource.h
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<sstream>
+	<string>
+	"bad_jaba.h"
+
+1367316200 source:/home/student/s02110092/cpp/jaba_eater/parser.cpp
+
+1367316200 /home/student/s02110092/cpp/jaba_eater/parser.h
+
+1367698133 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater1\bad_jaba.cpp
+	"bad_jaba.h"
+
+1367698133 c:\users\innot\dropbox\code\codeblocks\jaba_eater1\bad_jaba.h
+	<exception>
+	<string>
+	<iostream>
+	"filesource.h"
+
+1367309742 c:\users\innot\dropbox\code\codeblocks\jaba_eater1\filesource.h
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<sstream>
+	<string>
+	"bad_jaba.h"
+
+1367309730 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater1\filesource.cpp
+	"filesource.h"
+
+1367751288 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater1\lexer.cpp
+	"lexer.h"
+
+1367751179 c:\users\innot\dropbox\code\codeblocks\jaba_eater1\lexer.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	"bad_jaba.h"
+	"filesource.h"
+	"local_types.h"
+
+1368189113 es.h"
+
+1367750596 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater1\main.cpp
+	<iostream>
+	"lexer.h"
+	"parser.h"
+
+1367780305 c:\users\innot\dropbox\code\codeblocks\jaba_eater1\parser.h
+	<vector>
+	<stack>
+	"lexer.h"
+	"bad_jaba.h"
+	"identifier.h"
+
+1368305043 r.h"
+
+1367781134 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater1\parser.cpp
+	"parser.h"
+
+1367701506 c:\users\innot\dropbox\code\codeblocks\jaba_eater1\local_types.h
+
+1367669841 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater1\identifier.cpp
+	"identifier.h"
+
+1367615189 c:\users\innot\dropbox\code\codeblocks\jaba_eater1\identifier.h
+	<stack>
+	<iostream>
+	"local_types.h"
+	"bad_jaba.h"
+
+1367694252 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater1\executioner.cpp
+	"executioner.h"
+
+1368352065 er.h"
+
+1367695231 c:\users\innot\dropbox\code\codeblocks\jaba_eater1\executioner.h
+
+1368296694 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater2\bad_jaba.cpp
+	"bad_jaba.h"
+
+1368272469 c:\users\innot\dropbox\code\codeblocks\jaba_eater2\bad_jaba.h
+	<exception>
+	<string>
+	<iostream>
+	"filesource.h"
+
+1367309742 c:\users\innot\dropbox\code\codeblocks\jaba_eater2\filesource.h
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<sstream>
+	<string>
+	"bad_jaba.h"
+
+1368306388 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater2\executioner.cpp
+	"executioner.h"
+
+1368300788 c:\users\innot\dropbox\code\codeblocks\jaba_eater2\executioner.h
+	<stack>
+	<sstream>
+	"rpn.h"
+	"lexer.h"
+	"bad_jaba.h"
+	"identifier.h"
+
+1367309730 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater2\filesource.cpp
+	"filesource.h"
+
+1368302235 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater2\lexer.cpp
+	"lexer.h"
+
+1368189113 c:\users\innot\dropbox\code\codeblocks\jaba_eater2\lexer.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	"bad_jaba.h"
+	"filesource.h"
+	"local_types.h"
+
+1368299430 c:\users\innot\dropbox\code\codeblocks\jaba_eater2\local_types.h
+
+1368352065 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater2\main.cpp
+	<iostream>
+	"lexer.h"
+	"parser.h"
+	"executioner.h"
+
+1368353891 c:\users\innot\dropbox\code\codeblocks\jaba_eater2\parser.h
+	"rpn.h"
+	"lexer.h"
+	"bad_jaba.h"
+	"identifier.h"
+
+1368353891 c:\users\innot\dropbox\code\codeblocks\jaba_eater2\rpn.h
+	<vector>
+	<stack>
+	"lexer.h"
+
+1368304137 c:\users\innot\dropbox\code\codeblocks\jaba_eater2\identifier.h
+	<stack>
+	<iostream>
+	"local_types.h"
+	"bad_jaba.h"
+	"rpn.h"
+	"lexer.h"
+
+1368305043 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater2\identifier.cpp
+	"identifier.h"
+
+1368354271 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater2\parser.cpp
+	"parser.h"
+
+1368354416 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater2\rpn.cpp
+	"rpn.h"
+
+1368296694 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/bad_jaba.cpp
+	"bad_jaba.h"
+
+1368272469 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/bad_jaba.h
+	<exception>
+	<string>
+	<iostream>
+	"filesource.h"
+
+1367309742 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/filesource.h
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<sstream>
+	<string>
+	"bad_jaba.h"
+
+1368306388 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/executioner.cpp
+	"executioner.h"
+
+1368300788 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/executioner.h
+	<stack>
+	<sstream>
+	"rpn.h"
+	"lexer.h"
+	"bad_jaba.h"
+	"identifier.h"
+
+1368353891 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/rpn.h
+	<vector>
+	<stack>
+	"lexer.h"
+
+1368189113 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/lexer.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	"bad_jaba.h"
+	"filesource.h"
+	"local_types.h"
+
+1368299430 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/local_types.h
+
+1368304137 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/identifier.h
+	<stack>
+	<iostream>
+	"local_types.h"
+	"bad_jaba.h"
+	"rpn.h"
+	"lexer.h"
+
+1367309730 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/filesource.cpp
+	"filesource.h"
+
+1368305043 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/identifier.cpp
+	"identifier.h"
+
+1368389247 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/lexer.cpp
+	"lexer.h"
+
+1368352065 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/main.cpp
+	<iostream>
+	"lexer.h"
+	"parser.h"
+	"executioner.h"
+
+1368388280 /home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/parser.h
+	"rpn.h"
+	"lexer.h"
+	"bad_jaba.h"
+	"identifier.h"
+
+1368354717 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/rpn.cpp
+	"rpn.h"
+
+1368389649 source:/home/innot/Dropbox/Code/CodeBlocks/jaba_eater3/parser.cpp
+	"parser.h"
+
+1368296694 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater3\bad_jaba.cpp
+	"bad_jaba.h"
+
+1368272469 c:\users\innot\dropbox\code\codeblocks\jaba_eater3\bad_jaba.h
+	<exception>
+	<string>
+	<iostream>
+	"filesource.h"
+
+1367309742 c:\users\innot\dropbox\code\codeblocks\jaba_eater3\filesource.h
+	<cstdlib>
+	<cstdio>
+	<fstream>
+	<sstream>
+	<string>
+	"bad_jaba.h"
+
+1368690517 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater3\executioner.cpp
+	"executioner.h"
+
+1368690518 c:\users\innot\dropbox\code\codeblocks\jaba_eater3\executioner.h
+	<stack>
+	<sstream>
+	"rpn.h"
+	"lexer.h"
+	"bad_jaba.h"
+	"identifier.h"
+
+1368647872 c:\users\innot\dropbox\code\codeblocks\jaba_eater3\rpn.h
+	<vector>
+	<stack>
+	"lexer.h"
+
+1368548024 c:\users\innot\dropbox\code\codeblocks\jaba_eater3\lexer.h
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	"bad_jaba.h"
+	"filesource.h"
+	"local_types.h"
+
+1368299430 c:\users\innot\dropbox\code\codeblocks\jaba_eater3\local_types.h
+
+1368304137 c:\users\innot\dropbox\code\codeblocks\jaba_eater3\identifier.h
+	<stack>
+	<iostream>
+	"local_types.h"
+	"bad_jaba.h"
+	"rpn.h"
+	"lexer.h"
+
+1367309730 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater3\filesource.cpp
+	"filesource.h"
+
+1368305043 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater3\identifier.cpp
+	"identifier.h"
+
+1368547691 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater3\lexer.cpp
+	"lexer.h"
+
+1368645800 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater3\main.cpp
+	<iostream>
+	"lexer.h"
+	"parser.h"
+	"executioner.h"
+
+1368388280 c:\users\innot\dropbox\code\codeblocks\jaba_eater3\parser.h
+	"rpn.h"
+	"lexer.h"
+	"bad_jaba.h"
+	"identifier.h"
+
+1368650799 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater3\parser.cpp
+	"parser.h"
+
+1368650799 source:c:\users\innot\dropbox\code\codeblocks\jaba_eater3\rpn.cpp
+	"rpn.h"
+
